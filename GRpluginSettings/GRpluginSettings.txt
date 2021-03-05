@@ -18,6 +18,7 @@ GroundLabel_FontSize=11
 GroundLabel_Transparency_Bd=100
 GroundLabel_Transparency_Bg=100
 Track_HistoryDots_GND=5
+System_AutoAssignDist=18
 System_GroundMode_AltFilter_AAL=10000
 System_OSM=1
 System_State_OnFreq=WT
