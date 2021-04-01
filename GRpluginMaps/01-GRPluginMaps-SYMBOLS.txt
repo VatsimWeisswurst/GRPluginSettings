@@ -1,0 +1,10 @@
+//-------------------------S Y M B O L---------------------------
+SYMBOLDEF:Helipoint
+ARC:0:0:7:0:0
+
+SYMBOLDEF:CROSS
+MOVETO:-5:-5
+LINETO:6:6
+MOVETO:5:-5
+LINETO:-6:6
+
