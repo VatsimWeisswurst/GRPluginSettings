@@ -11,7 +11,8 @@ Color_WarningText=224,0,0
 Color_Departure=0,188,255
 Color_Arrival=255,230,0
 Color_Unknown=62,232,0
-GroundLabel_FontSize=11
+GroundLabel_FontSize=10
+TowerLabel_FontSize=12
 Track_HistoryDots_GND=5
 System_AutoAssignDist=18
 System_GroundMode_AltFilter_AAL=10000
@@ -36,30 +37,30 @@ System_RMCA_NoLineUpState=0
 List_Stand_Items=10
 Label_DEP=0,1,0
 Label_ATYP=0,1,0
-Label_WTC=0,1,0
-Label_DRWY=0,0,0
+Label_WTC=0,0,0
+Label_DRWY=0,1,0
 Label_DEP=0,0,0
-Label_STAND=0,0,0
+Label_STAND=0,1,0
 
 Label=GND:DEP:0:ALRT,0,0:ASSR_E,0,1
-Label=GND:DEP:1:CALLSIGN,0,0:COMM,0,1
+Label=GND:DEP:1:CALLSIGN,0,0:DRWY,0,1:COMM,0,1
 Label=GND:DEP:2:ATYP,0,1:WTC,0,1
-Label=GND:DEP:3:DEP,0,1:DRWY,0,1:RMK,0,1
+Label=GND:DEP:3:DEP,0,1:RMK,0,1
 
 Label=GND:ARR:0:ALRT,0,0:ASSR_E,0,1
-Label=GND:ARR:1:CALLSIGN,0,0:COMM,0,1
+Label=GND:ARR:1:CALLSIGN,0,0:STAND,0,1:COMM,0,1
 Label=GND:ARR:2:ATYP,0,1:WTC,0,1
-Label=GND:ARR:3:STAND,0,1:RMK,0,1
+Label=GND:ARR:3:RMK,0,1
 
 Label=TWR:DEP:0:ALRT,0,0:ASSR_E,0,1
 Label=TWR:DEP:1:CALLSIGN,0,0:ATYP,0,2:WTC,0,1
 Label=TWR:DEP:2:AFL+VS,0,1,20:GS,0,1,1
-Label=TWR:DEP:3:RMK,0,0
+Label=TWR:DEP:3:DEP,0,1:RMK,0,1
 
 Label=TWR:ARR:0:ALRT,0,0:ASSR_E,0,1
 Label=TWR:ARR:1:CALLSIGN,0,0:ATYP,0,2:WTC,0,1
 Label=TWR:ARR:2:AFL+VS,0,1,20:GS,0,1,1
-Label=TWR:ARR:3:RMK,0,0
+Label=TWR:ARR:3:ARWY,0,1:RMK,0,1
 
 [EDDM]
 Airport_Runway_Area_LVP=26R:102
